@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uparty-Demo</title>
+    <link rel="stylesheet" href="/Prueba 8/8style.css">
+    <link rel="icon" href="/consola-de-juego.png">
+    <script src="/Prueba 8/user.js"></script>
+</head>
+<body>
+    <div class="menu">
+    </div>
+    <button type="button" >
+        <img class="icono-menu" src="/menu-de-hamburguesas.png">
+        <ul>
+            <li id="item-menu></li>
+        </ul>
+    </button>
+    <img class="logo" src="/consola-de-juego.png">
+    <span class="eslogan">Uparty</span>
+    <div class="cont">                  <!--La box central, de la interfaz de juego-->
+        <div id="story-img">
+            <!-- Imagen de la historia -->
+            <img class="img" src="/Portada.jpeg">
+        </div>
+        <div>
+            <label for="nombre">Introduce tu nombre:</label>
+            <input type="text" id="input-nombre" placeholder="Noah">
+            <button onclick="guardarNombreYRedirigir()">Comenzar</button>
+        </div>
+    </div>
+</body>
+</html>

@@ -4,6 +4,6 @@ function guardarNombreYRedirigir() {
         // Guardar el nombre en el almacenamiento local
         localStorage.setItem('nombreJugador', nombre);
         // Redirigir a la página de la historia
-        window.location.href = '8index.html';
+        window.location.href = 'index.html';
     }
 }

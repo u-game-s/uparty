@@ -83,7 +83,7 @@ body {
 
 /* Hero Section */
 .hero {
-    background: url('/Habitación\ 2.png') center/cover no-repeat;
+    background: url('Habitación 2.png') center/cover no-repeat;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -118,7 +118,7 @@ body {
 
 /* Parallax Section */
 .parallax {
-    background: url('/Biblio.png') center/cover fixed no-repeat;
+    background: url('Biblio.png') center/cover fixed no-repeat;
     height: 50vh;
     display: flex;
     justify-content: center;

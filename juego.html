@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jugar - Uparty</title>
+    <link rel="stylesheet" href="/Prueba 9/juego.css">
+    <link rel="icon" href="/Logo (32px).png" type="image/png">
+    <script src="/Prueba 9/funciones.js"></script>
+</head>
+<body>
+    <audio id="musica" controls autoplay loop>
+        <source src="/Soundtrack Uparty.mp3" type="audio/mpeg">
+        Tu navegador no soporta la reproducción de audio.
+    </audio>
+    <div class="menu">
+    </div>
+    <div class="icono-menu">
+        <img src="/menu-de-hamburguesas.png">
+        <ul>
+            <li><a href="/Prueba 9/user.html">Reiniciar</a></li>
+            <li><div class="volume-control">
+                    <label for="volume-slider">Volumen: </label>
+                    <input type="range" id="volume-slider" min="0" max="1" step="0.1" value="0.2">
+                </div></li>
+            <li><a href="/Prueba 9/inicio.html">Salir</a></li>
+        </ul>
+    </div>
+    <img class="logo" src="/Logo (32px).png">
+    <span class="eslogan">Uparty</span>
+    <div class="mecanicas">             <!--la box de la izqueirda en la que saldrán todas las mecánicas del juego-->
+        <div class="dinero">            <!--cartera-->
+            <img class="moneda" src="/moneda.png" alt="mondero">        
+            <span class="cantidad" id="cantidad">20 </span>
+        </div>
+        <div id="estado">Estado: sobrio</div> 
+        <div id="barraEbriedad">         <!--Barra de estado-->
+            <div id="progresoEbriedad"></div>
+            <div id="porcentajeEbriedad"></div>
+        </div>
+        <div id="pasos"> 
+            <div id="numerador">1</div>
+            <div>/</div>
+            <div id="denominador">100</div>
+        </div>
+        
+    </div>
+    <div class="cont">                  <!--La box central, de la interfaz de juego-->
+        <div id="story-img">
+            <!-- Imagen de la historia -->
+            <img src="/ESI - Pasillo.png">
+        </div>
+        <div>
+            <!--Botones con las decisiones de la historia-->
+            <button id="boton1" onclick="siguiente(this)" data-boton="boton1">(Tras un agotador jueves, por fin terminas las clases. La luz del sol inunda los pasillos mientras vas con Kevin a por la clásica del día.)
+            </button>
+            <button id="boton2" onclick="siguiente(this)" data-boton="boton2">
+            </button>
+            <button id="boton3" onclick="siguiente(this)" data-boton="boton3">
+            </button>
+            <button id="boton4" onclick="siguiente(this)" data-boton="boton4">
+            </button>
+            <button id="boton5" onclick="siguiente(this)" data-boton="boton5">
+            </button>
+        </div>
+    </div>
+    <div class="inventario">           <!--la box de la derecha en la que saldrán todos los objetos del inventario del juego-->
+        <span class="titulo-obj">items</span>
+        <div class="fila">
+            <div class="obj">
+                <img id="bebida" class="obj-icono" src="/bebida-energetica.png">  <!--64px-->
+            </div>
+            <div class="obj">
+                <img id="pollo" class="obj-icono" src="/gallina.png">
+            </div>
+            <div class="obj">
+                <img id="botellín" class="obj-icono" src="/cerveza.png">
+            </div>
+        </div>
+        <div class="fila">
+            <div class="obj">
+                <img id="mdma" class="obj-icono" src="/pastillas.png">
+            </div>
+            <div class="obj">
+                <img id="consumición" class="obj-icono" src="/vale.png">
+            </div>
+            <div class="obj">
+                <img id="tarjeta" class="obj-icono" src="/tarjeta-de-credito.png">
+            </div>
+        </div>
+        <div class="fila">
+            <div class="obj"></div>
+            <div class="obj"></div>
+            <div class="obj"></div>
+        </div>
+    </div>
+</body>
+</html>

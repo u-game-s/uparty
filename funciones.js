@@ -29,13 +29,13 @@ let opciones = {
         consecuencia1: 'opcion5',
         },
     opcion5: {
-        imagen: '/RedBuff.jpeg',
+        imagen: 'RedBuff.jpeg',
         boton1Texto: '* Objeto añadido al inventario *',
         mostrar1: true,
         consecuencia1: 'opcion6',
     },
     opcion6: {
-        imagen: '/Clara - Cafete.jpeg',
+        imagen: 'Clara - Cafete.jpeg',
         boton1Texto: '[Clara] Hey! ¿Te has enterado del botellón de esta noche en los toruños? ¿Vamos? Me han dicho que viene García, que he visto que no le has quitado el ojo en clase esta semana...',
         consecuencia1: 'opcion7',
     },
@@ -44,12 +44,12 @@ let opciones = {
         consecuencia1: 'opcion8',
     },
     opcion8: {
-        imagen: '/teléfono.png',
+        imagen: 'teléfono.png',
         boton1Texto: '(Sientes vibrar el teléfono en tu bolsillo)',
         consecuencia1: 'opcion9',
     },
     opcion9: {
-        imagen: '/Mamá.png',
+        imagen: 'Mamá.png',
         boton1Texto: 'Hola, mamá, ¿qué pasa?',
         consecuencia1: 'opcion10',
     },
@@ -73,13 +73,13 @@ let opciones = {
         consecuencia2: 'opcion20',
     },
     opcion14: {
-        imagen: '/Camino.png',
+        imagen: 'Camino.png',
         boton1Texto: '(El camino a casa de tu abuela está lleno de recuerdos que te llevan a la infancia.)', 
         bot2:false,
         consecuencia1: 'opcion15',
     },
     opcion15: {
-        imagen: '/Abuela.png',
+        imagen: 'Abuela.png',
         boton1Texto: '[Abuela] ¡Ay, mi niño! ¡Qué alegría verte! Pasa, pasa, que te preparo un café. Estás muy delgado, ¿eh?',
         consecuencia1: 'opcion16',
     },
@@ -98,17 +98,17 @@ let opciones = {
         
     },
     opcion19: {
-        imagen: '/Mensaje Kevin.png',
+        imagen: 'Mensaje Kevin.png',
         boton1Texto: '(Miras el móvil y ves un mensaje de Kevin: “Cambio de planes, olvídate del botellón en los toruños, mejor vamos a Mamart)', 
         consecuencia1: 'opcion56',
     },
     opcion20: {
-        imagen: '/Toruños.png',
+        imagen: 'Toruños.png',
         boton1Texto: '(La tarde transcurrió con normalidad. Con el comienzo del atardecer os disponéis a llegar al lugar acordado, de lejos ves a Clara llamándote... no parece nada bueno)',
         consecuencia1: 'opcion21',
     },
     opcion21: {
-        imagen: '/Clara - Toruños.jpeg',
+        imagen: 'Clara - Toruños.jpeg',
         boton1Texto: '[Clara] ¡Por fin habéis llegado! Tengo malas noticias, García no viene al final. Está en la punta en la fiesta de Mamart. Si quieres vamos luego, la entrada solo son 10 ucoins con consumición incluída.',
         consecuencia1: 'opcion22',
     },
@@ -117,7 +117,7 @@ let opciones = {
         consecuencia1: 'opcion23',
     },
     opcion23: {
-        imagen: '/Kevin - Toruños.jpeg',
+        imagen: 'Kevin - Toruños.jpeg',
         boton1Texto: '[Kevin] Todo eso me parece muy bien, pero no tenemos nada para beber, como no le robemos a los de al lado no sé qué pensáis hacer', 
         consecuencia1: 'opcion24',
     },
@@ -127,12 +127,12 @@ let opciones = {
         consecuencia1: 'opcion25',
     },
     opcion25: {
-        imagen: '/Kevin - Toruños.jpeg',
+        imagen: 'Kevin - Toruños.jpeg',
         boton1Texto: '[Kevin] Lo digo enserio ¿Tú qué opinas? No te quedes en silencio',
         consecuencia1: 'opcion26',
     },
     opcion26: {
-        imagen: '/Todos - Toruños.jpeg',
+        imagen: 'Todos - Toruños.jpeg',
         boton1Texto: '>> No me parece mala idea, total no se van a beber todo eso',
         boton2Texto: '>> No nos metamos en problemas, mejor vamos a preguntarles si quieren compartir', 
         bot2: true,
@@ -140,24 +140,24 @@ let opciones = {
         consecuencia2: 'opcion34',
     },
     opcion27: {
-        imagen: '/Toruños.png',
+        imagen: 'Toruños.png',
         boton1Texto: '(Robo exitoso) * Objeto añadido al inventario *',
         mostrar3: true,
         bot2: false,
         consecuencia1: 'opcion28',
     },
     opcion28: {
-        imagen: '/Kevin - Toruños.jpeg',
+        imagen: 'Kevin - Toruños.jpeg',
         boton1Texto: '[Kevin] Podemos echarle el RedBuff que hemos conseguido antes, el cubata con eso alarga la vida',
         consecuencia1: 'opcion29',
     },
     opcion29: {
-        imagen: '/Clara - Toruños.jpeg',
+        imagen: 'Clara - Toruños.jpeg',
         boton1Texto: '[Clara] No le hagas caso al loco este, vais a acabar fatal esta noche',
         consecuencia1: 'opcion30',
     },
     opcion30: {
-        imagen: '/Todos - Toruños.jpeg',
+        imagen: 'Todos - Toruños.jpeg',
         boton1Texto: '>> Con el RedBuff entra más fácil, vida solo hay una.',
         boton2Texto: '>> Eso pega demasiado fuerte, mejor paso.', 
         bot2: true,
@@ -166,7 +166,7 @@ let opciones = {
         cubata: true,
     },
     opcion31: {
-        imagen: '/Toruños.png',
+        imagen: 'Toruños.png',
         boton1Texto: '* Se ha usado RedBuff *',
         bot2: false,
         mostrar1: false,
@@ -195,12 +195,12 @@ let opciones = {
         consecuencia1: 'opcion37',
     },
     opcion37: {
-        imagen: '/Kevin - Toruños.jpeg',
+        imagen: 'Kevin - Toruños.jpeg',
         boton1Texto: '[Kevin] Pues nada, ya se nos ha acabado el alcohol. ¿Nos colamos en cafete a por unas cervezas?',
         consecuencia1: 'opcion38',
     },
     opcion38: {
-        imagen: '/Toruños.png',
+        imagen: 'Toruños.png',
         boton1Texto: '(La idea de Kevin suena tentadora, Robinho siempre se deja la puerta abierta)',
         consecuencia1: 'opcion39',
     },

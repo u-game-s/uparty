@@ -44,7 +44,7 @@ let opciones = {
         consecuencia1: 'opcion8',
     },
     opcion8: {
-        imagen: 'teléfono.png',
+        imagen: 'Teléfono.png',
         boton1Texto: '(Sientes vibrar el teléfono en tu bolsillo)',
         consecuencia1: 'opcion9',
     },
@@ -122,7 +122,7 @@ let opciones = {
         consecuencia1: 'opcion24',
     },
     opcion24: {
-        imagen: '/Clara - Toruños.jpeg',
+        imagen: 'Clara - Toruños.jpeg',
         boton1Texto: '[Clara] ¿Pero qué estás diciendo Kevin?',
         consecuencia1: 'opcion25',
     },

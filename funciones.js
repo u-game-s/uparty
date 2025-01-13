@@ -20,7 +20,7 @@ let opciones = {
         consecuencia1: 'opcion3',
     },
     opcion3: {
-        imagen: '/Pasillo - Kevin.jpeg',
+        imagen: 'Pasillo - Kevin.jpeg',
         boton1Texto: '[Kevin] Me ha escrito Cristian, está aparcando y acaba de ver el camión del RedBuff, ¿vamos a por uno antes de ir a cafete?',
         consecuencia1: 'opcion4',
     },

@@ -212,6 +212,7 @@ let opciones = {
         consecuencia2: 'opcion56',
     },
     opcion40: {
+        imagen: 'Valla ESI.png',
         boton1Texto: '(En vuestro intento de saltar la valla os pasa factura el llevar toda la semana jugando al LoL en el pasillo, caes estrepitosamente al suelo, al levantar la vista ves a un gallo durmiendo)',
         bot2: false,
         consecuencia1: 'opcion41',
@@ -226,6 +227,7 @@ let opciones = {
         consecuencia3: 'opcion47'
     },
     opcion42: {
+        imagen: 'Agujereado.jpg',
         boton1Texto: ' FINAL 1 de 22: El gallo empieza a despertarse y con un cacareo llama a toda una horda de gallos y gallinas de la ESI... lo último que recuerdas es ver tu cuerpo agujereado mientras Kevin espantaba a la horda.',
         bot2: false,
         bot3: false,
@@ -242,6 +244,7 @@ let opciones = {
         consecuencia1: 'opcion45',
     },
     opcion45: {
+        imagen: 'Kevin Valla.jpeg',
         boton1Texto: '[Kevin] ¿Qué cojones haces con el gallo?',
         consecuencia1: 'opcion46',
     },
@@ -250,12 +253,15 @@ let opciones = {
         consecuencia1: 'opcion56',
     },
     opcion47: {
+        imagen: 'Cafete fuera.png',
         boton1Texto: '(Al dirigiros a la puerta trasera de cafetería os dais cuenta de que, efectivamente, teneís el acceso libre, “Cualquiera podría haber entrado” os decís mutuamente mientras os dirigís al interior)',
         bot2: false,
         bot3: false,
         consecuencia1: 'opcion48',
     },
+    
     opcion48: {
+        imagen: 'Kevin Caja.jpeg',
         boton1Texto: '[Kevin] ¿Y si nos dejamos de robar botellines y vamos a lo grande abriendo la caja?', 
         consecuencia1: 'opcion49',
     },
@@ -270,6 +276,7 @@ let opciones = {
         consecuencia3: 'opcion54',
     },
     opcion50: {
+        imagen: 'Caja.jpeg',
         boton1Texto: '* Ebriedad: +1,2 *',
         consecuencia1: 'opcion51',
         cerveza: true,
@@ -298,22 +305,27 @@ let opciones = {
         bot3: false,
     },
     opcion55: {
+        imagen: 'Intoxicación',
         boton1Texto: ' FINAL 2 de 22: Intoxicación por cerveza. Al final tu abuela tenía razón y la avaricia acabó rompiendo el saco',
     },
     opcion56: {
+        imagen: 'Mamart.png',
         boton1Texto: 'Después de un largo paseo por la ciudad, llegáis finalmente a la discoteca Mamart. La fila es larga, y el sonido de la música desde dentro te llena de emoción. ',
         consecuencia1: 'opcion57',
     },
     opcion57: {
+        imagen: 'Portero Puerto.jpeg',
         boton1Texto: '[Portero 1] 10 Ucoins la entrada, y los documentos',
         consecuencia1: 'opcion58',
         cant: -10,
     },
     opcion58: {
+        imagen: 'Mamart.png',
         boton1Texto: '-10 ucoins',
         consecuencia1: 'opcion59',
     },
     opcion59: {
+        imagen: 'Portero Puerto.jpeg',
         boton1Texto: ' (El portero os sella el brazo, os entrega una consumición y entráis)',
         consecuencia1: 'opcion60',
     },
@@ -323,6 +335,7 @@ let opciones = {
         mostrar4: true,
     },
     opcion61: {
+        imagen: 'Kevin Interior.jpeg',
         boton1Texto: '(Kevin parece más emocionado que nunca. La música retumba, las luces parpadean y un aroma a fiesta envuelve todo el lugar.)',
         consecuencia1: 'opcion62',
     },

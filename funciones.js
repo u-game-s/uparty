@@ -309,7 +309,7 @@ let opciones = {
         boton1Texto: ' FINAL 2 de 22: Intoxicación por cerveza. Al final tu abuela tenía razón y la avaricia acabó rompiendo el saco',
     },
     opcion56: {
-        imagen: 'Mamart.png',
+        imagen: 'Mamart.jpeg',
         boton1Texto: 'Después de un largo paseo por la ciudad, llegáis finalmente a la discoteca Mamart. La fila es larga, y el sonido de la música desde dentro te llena de emoción. ',
         consecuencia1: 'opcion57',
     },

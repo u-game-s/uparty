@@ -315,7 +315,7 @@ let opciones = {
     },
     opcion57: {
         imagen: 'Portero Puerto.jpeg',
-        boton1Texto: '[Portero 1] 10 Ucoins la entrada, y los documentos',
+        boton1Texto: '[Portero] 10 Ucoins la entrada, y los documentos',
         consecuencia1: 'opcion58',
         cant: -10,
     },
@@ -764,7 +764,7 @@ let opciones = {
     },
     opcion134: {
         imagen: 'Portero reservado.jpeg',
-        boton1Texto: '[Portero agresivo] Te estamos hablando, colega. No me gusta que me ignoren',
+        boton1Texto: '[Portero agresivo] Te estoy hablando, colega. No me gusta que me ignoren',
         consecuencia1: 'opcion135',
     },
     opcion135:{

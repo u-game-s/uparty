@@ -348,6 +348,7 @@ let opciones = {
         consecuencia1: 'opcion64',
     },
     opcion64: {
+        imagen: 'Garcías.png',
         boton1Texto: '>> Te quedas con la mirada posada en él, recordando por qué te llamó la atención desde el principio.',
         boton2Texto: '>> Tus ojos se posan en ella, y de inmediato sientes esa conexión especial que siempre has tenido.',
         bot2: true,
@@ -355,13 +356,15 @@ let opciones = {
         consecuencia2: 'opcion66',
     },
     opcion65: {
-        boton1Texto: '[kevin] Bueno deberíamos empezar con un chupito ¡Esta noche es nuestra!',
+        imagen: 'Kevin Barra.jpeg',
+        boton1Texto: '[Kevin] Bueno deberíamos empezar con un chupito ¡Esta noche es nuestra!',
         boton2Texto: 'Deséame suerte...',
         consecuencia1: 'opcion67',
         consecuencia2: 'opcion112',
     },
     opcion66: {
-        boton1Texto: '[kevin] Bueno deberíamos empezar con un chupito ¡Esta noche es nuestra!',
+        imagen: 'Kevin Barra.jpeg',
+        boton1Texto: '[Kevin] Bueno deberíamos empezar con un chupito ¡Esta noche es nuestra!',
         boton2Texto: 'Deséame suerte...',
         consecuencia1: 'opcion67',
         consecuencia2: 'opcion112',
@@ -374,6 +377,7 @@ let opciones = {
         consecuencia2: 'opcion112'
     },
     opcion68: {
+        imagen: 'barra.jpg',
         boton1Texto: '* Se ha usado Consumición *',
         bot2: false,
         consecuencia1: 'opcion69',
@@ -389,7 +393,8 @@ let opciones = {
         consecuencia1: 'opcion71',
     },
     opcion71: {
-        boton1Texto: '[kevin] Woow, estoy a tope, ¿qué pedimos ahora?',
+        imagen: 'Kevin Barra.jpeg',
+        boton1Texto: '[Kevin] Woow, estoy a tope, ¿qué pedimos ahora?',
         consecuencia1: 'opcion72',
     },
     opcion72: {
@@ -406,7 +411,7 @@ let opciones = {
         consecuencia4: 'opcion85',
     },
     opcion73: {
-        boton1Texto: '[kevin] Pff, tan aburrido como siempre colega',
+        boton1Texto: '[Kevin] Pff, tan aburrido como siempre colega',
         consecuencia1: 'opcion76',
         cant:-3,
         bot2: false,
@@ -414,7 +419,7 @@ let opciones = {
         bot4: false,
     },
     opcion74: {
-        boton1Texto: '[kevin] Tú si le sabes eeeh',
+        boton1Texto: '[Kevin] Tú si le sabes eeeh',
         consecuencia1: 'opcion77',
         cant:-2,
         bot2: false,
@@ -422,7 +427,7 @@ let opciones = {
         bot4: false,
     },
     opcion75: {
-        boton1Texto: '[kevin] El ron-cola nunca falla',
+        boton1Texto: '[Kevin] El ron-cola nunca falla',
         consecuencia1: 'opcion78',
         cant:-6,
         bot2: false,
@@ -430,45 +435,55 @@ let opciones = {
         bot4: false,
     },
     opcion76: {
+        imagen: 'barra.jpg',
         boton1Texto: '-3 ucoins',
         consecuencia1: 'opcion79',
     },
     opcion77: {
+        imagen: 'barra.jpg',
         boton1Texto: '-2 ucoins',
         consecuencia1: 'opcion79',
     },
     opcion78: {
+        imagen: 'barra.jpg',
         boton1Texto: '-6 ucoins',
         consecuencia1: 'opcion81',
     },
     opcion79: {
+        imagen: 'barra.jpg',
         boton1Texto: '(Sientes como se te destensa el cuerpo con cada segundo que pasa)',
         consecuencia1: 'opcion80',
         cerveza: true,
     },
     opcion80: {
+        imagen: 'barra.jpg',
         boton1Texto: '*Ebriedad: +1,2 *',
         consecuencia1: 'opcion71',
     },
     opcion81: {
+        imagen: 'barra.jpg',
         boton1Texto: '(Con una irritante lentitud, sientes cómo se abrasa todo tu conducto digestivo)',
         consecuencia1: 'opcion82',
         chupito: true,
     },
     opcion82: {
+        imagen: 'barra.jpg',
         boton1Texto: '* Ebriedad: +1,6 *',
         consecuencia1: 'opcion71',
     },
     opcion83: {
+        imagen: 'barra.jpg',
         boton1Texto: '(Cada sorbo aumenta tu sensación de mareo y a su vez te acerca a un estado de plenitud y dudosa confianza)',
         consecuencia1: 'opcion84',
         cubata: true,
     },
     opcion84: {
+        imagen: 'barra.jpg',
         boton1Texto: '* Ebriedad: +2,5 *',
         consecuencia1: 'opcion71',
     },
     opcion85: {
+        imagen: 'Kevin Barra.jpeg',
         boton1Texto: '[Kevin] No sé tú, pero yo ya me estoy meando, ¿te vienes al baño?',
         consecuencia1: 'opcion86',
         bot2: false,
@@ -486,30 +501,37 @@ let opciones = {
         consecuencia2: 'opcion112',
     },
     opcion87: {
+        imagen: 'Baño.jpeg',
         boton1Texto: '(Al entrar al baño te encuentras al primo de Kevin, Cristian. Está apoyado en la pared, con un sonrisa pícara en el rostro. Al verte, te enseña algo que no puedes ignorar)',
         consecuencia1: 'opcion88',
     },
     opcion88: {
+        imagen: 'Cristian.jpeg',
         boton1Texto: '[Cristian] ¿Quieres animar la noche? Tengo de todo, lo que quieras: marihuana, cocaína, MDMA, o algo nuevo que estoy probando',
         consecuencia1: 'opcion89',
     },
     opcion89: {
+        imagen: 'Aviso1.png',
         boton1Texto: '¡ADVERTENCIA AL JUGADOR!',
         consecuencia1: 'opcion90',
     },
     opcion90: {
+        imagen: 'Aviso2.png',
         boton1Texto: '¡ADVERTENCIA AL JUGADOR!',
         consecuencia1: 'opcion91',
     },
     opcion91: {
+        imagen: 'Aviso3.png',
         boton1Texto: '¡ADVERTENCIA AL JUGADOR!',
         consecuencia1: 'opcion92',
     },
     opcion92: {
+        imagen: 'Aviso4.png',
         boton1Texto: '¡ADVERTENCIA AL JUGADOR!',
         consecuencia1: 'opcion93',
     },
     opcion93: {
+        imagen: 'Aviso.png',
         boton1Texto: '>> Marihuana',
         boton2Texto: '>> Cocaína',
         boton3Texto: '>> MDMA',
@@ -526,6 +548,7 @@ let opciones = {
         consecuencia5: 'opcion112',
     },
     opcion94: {
+        imagen: 'Baño.jpeg',
         boton1Texto: '(Decides fumar marihuana, y al principio te sientes tranquilo y relajado. La música suena de fondo, y las luces parecen bailar en cámara lenta. Sin embargo, poco a poco, el efecto de la marihuana se apodera de ti, haciéndote sentir más y más somnoliento',
         bot2: false,
         bot3: false,
@@ -534,6 +557,7 @@ let opciones = {
         consecuencia1: 'opcion95',
     },
     opcion95: {
+        imagen: 'Solo.jpeg',
         boton1Texto: 'FINAL 4 de 22: Solo y fumado. Te despiertan los camareros por la mañana, la noche ya ha pasado',
     },
     opcion96: {
@@ -545,6 +569,7 @@ let opciones = {
         bot5: false,
     },
     opcion97: {
+        imagen: 'Reservado.jpeg',
         boton1Texto: '(Te acercas al reservado y García te ve desde lejos. Al llegar, tu mandíbula se mueve incontrolablemente y tus ojos están completamente desorbitados) ',
         consecuencia1: 'opcion98',
     },
@@ -553,19 +578,23 @@ let opciones = {
         consecuencia1: 'opcion99',
     },
     opcion99: {
+        imagen: 'Reservado.jpeg',
         boton1Texto: '(De repente uno de los porteros que también ha notado tu comportamiento se acerca)',
         consecuencia1: 'opcion100',
     },
     opcion100: {
-        boton1Texto: '[Portero 2] Vamos, amigo, no puedes estar así por aquí. Es hora de que te vayas',
+        imagen: 'Portero reservado.jpeg',
+        boton1Texto: '[Portero] Vamos, amigo, no puedes estar así por aquí. Es hora de que te vayas',
         consecuencia1: 'opcion101',
     },
     opcion101: {
+        imagen: 'Expulsado.jpeg',
         boton1Texto: ' FINAL 5 de 22: Expulsado y drogado. Terminas solo en la entrada de la discoteca, con el corazón acelerado y la mandíbula tensa, sabiendo que has perdido tu oportunidad con García. La noche acaba para ti de la peor forma posible',
     },
     opcion102: {
+        imagen: 'Cristian.jpeg',
         boton1Texto: '💭¿Qué debería hacer con esta pastilla?',
-        boton2Texto: 'Lo siento amigo, pero no cumples los requisitos para esta',
+        boton2Texto: '[Cristian] Lo siento amigo, pero no cumples los requisitos para esta',
         consecuencia1: 'opcion103',
         consecuencia2: 'opcion93',
         bot2: true,
@@ -574,6 +603,7 @@ let opciones = {
         bot5: false,
     },
     opcion103: {
+        imagen: 'Baño.jpeg',
         boton1Texto: '>> (Guardar la pastilla)',
         boton2Texto: '>> (Consumir la pastilla)',
         bot2: true,
@@ -594,7 +624,7 @@ let opciones = {
         consecuencia1: 'opcion107',
     },
     opcion107: {
-        boton1Texto: '¡Ey! ¡Estás a tope! Se te ve increíblemente feliz, ¿qué te has tomado?',
+        boton1Texto: '[García] ¡Ey! ¡Estás a tope! Se te ve increíblemente feliz, ¿qué te has tomado?',
         consecuencia1: 'opcion108',
     },
     opcion108: {
@@ -602,9 +632,11 @@ let opciones = {
         consecuencia1: 'opcion109',
     },
     opcion109: {
+        imagen: 'Estudiar.png',
         boton1Texto: 'FINAL 6 de 22: Noche interrumpida por la realidad. La adrenalina te acompaña mientras llegas a casa, pero cuando te sientas a estudiar, el efecto de la droga te impide concentrarte. Pasas la noche sin aprender nada, y el lunes te presentas al examen agotado y sin respuestas',
     },
     opcion110: {
+        imagen: 'Baño.jpeg',
         boton1Texto: '(Tras tomar la píldora empiezas a notar que tus sentidos se distorsionan, tu vista empieza a nublarse y el ruido de la fiesta se escucha cada vez más lejano)',
         bot2: false,
         bot3: false,
@@ -613,9 +645,11 @@ let opciones = {
         consecuencia1: 'opcion111',
     },
     opcion111: {
+        imagen: 'Dimensión.jpeg',
         boton1Texto: 'FINAL 7 de 22: Cuando despiertas estás perdido en un mundo que no es el tuyo. ¿Cómo regresarás a casa? ',
     },
     opcion112: {
+        imagen: 'Discoteca.jpg',
         boton1Texto: '(No tienes el dinero para entrar ¿Habrá alguna forma de colarte?)',
         boton2Texto: '(Te acercas tranquilamente al portero que hay situado en el reservado. Tienes dinero suficiente como para entrar en la zona VIP)',
         consecuencia1: 'opcion113',
@@ -652,6 +686,7 @@ let opciones = {
         consecuencia2: 'opcion119',
     },
     opcion118: {
+        imagen: 'Agujereado.jpg',
         boton1Texto: ' FINAL 8 de 21: Persigues a la gallina intentado tener una conversación. El ave comienza a atacarte y los porteros te acaban echando.  Es una gallina ¿Qué esperabas conseguir?',
     },
     opcion119: {
@@ -663,6 +698,7 @@ let opciones = {
         consecuencia1: 'opcion121',
     },
     opcion121: {
+        imagen: 'Reservado.jpeg',
         boton1Texto: '>> (Ser honesto y contarle todo lo que ha pasado)',
         boton2Texto: '>> (Fingir que todo estaba planeado)',
         bot2: true,
@@ -692,9 +728,11 @@ let opciones = {
         consecuencia2: 'opcion127',
     },
     opcion126: {
+        imagen: 'Amor.png',
         boton1Texto: 'FINAL 9 de 21: La noche perfecta. Ambos disfrutáis del momento, y la química entre vosotros es innegable. La música fluye, las luces parecen brillar a vuestro favor, y antes de darte cuenta, García se acerca, te susurra algo al oído, y la noche termina con un apasionado beso bajo las luces de la discoteca',
     },
     opcion127: {
+        imagen: 'Discoteca.jpg',
         boton1Texto: '(Sin embargo, con la adrenalina y las copas de más, tus pies no coordinan bien. Mientras intentas una vuelta elegante, tropiezas y caes al suelo... justo en un charco pegajoso de lo que parece ser alguna bebida derramada. Todos se ríen, aunque de forma amistosa.)',
         consecuencia1: 'opcion128',
     },
@@ -703,6 +741,7 @@ let opciones = {
         consecuencia1: 'opcion129',
     },
     opcion129: {
+        imagen: 'puñito.jpg',
         boton1Texto: ' FINAL 10 de 21: Amistad, pero sin chispa. A pesar del momento embarazoso, la situación se calma. García te ayuda a levantarte, pero la química ya no es la misma, y la noche termina con un amistoso "hasta luego" y una palmada en la espalda',
     },
     opcion130: {
@@ -710,10 +749,12 @@ let opciones = {
         consecuencia1: 'opcion131',
     },
     opcion131: {
-        boton1Texto: '[Portero agresivo 1] Tú eres el de la gallina, lárgate ahora mismo',
+        imagen: 'Portero reservado.jpeg',
+        boton1Texto: '[Portero agresivo] Tú eres el de la gallina, lárgate ahora mismo',
         consecuencia1: 'opcion132',
     },
     opcion132: {
+        imagen: 'Ignorar.png',
         boton1Texto: '(Ignorarlos)',
         consecuencia1: 'opcion133',
     },
@@ -722,11 +763,12 @@ let opciones = {
         consecuencia1: 'opcion134',
     },
     opcion134: {
-        boton1Texto: '[Portero agresivo 2] Te estamos hablando, colega. No me gusta que me ignoren',
+        imagen: 'Portero reservado.jpeg',
+        boton1Texto: '[Portero agresivo] Te estamos hablando, colega. No me gusta que me ignoren',
         consecuencia1: 'opcion135',
     },
     opcion135:{
-        boton1Texto: '(De repente, la situación escala rápidamente, y uno de ellos te empuja. García se levanta, intentando calmar la situación.)',
+        boton1Texto: '(De repente, la situación escala rápidamente, y te empuja. García se levanta, intentando calmar la situación.)',
         consecuencia1: 'opcion136',
     },
     opcion136:{
@@ -734,6 +776,7 @@ let opciones = {
         consecuencia1: 'opcion137',
     },
     opcion137:{
+        imagen: 'Reservado.jpeg',
         boton1Texto: '>> (Contestarles)',
         boton2Texto: '>> (Defenderme)',
         boton3Texto: '>> (Alejarme con García para evitar problemas)',
@@ -743,15 +786,19 @@ let opciones = {
         consecuencia3: 'opcion140',
     },
     opcion138:{
+        imagen: 'Torta.png',
         boton1Texto: 'FINAL 12 de 22: Golpeado y humillado. No puedes evitar sentirte provocado, así que te levantas y le lanzas una respuesta sarcástica al tipo. En cuestión de segundos, los dos estáis envueltos en una pelea física. A pesar de tus esfuerzos, te noquean con un solo puñetazo y despiertas en el suelo de la discoteca mientras te arrastran fuera',
     },
     opcion139:{
+        imagen: 'Calabozo.jpg',
         boton1Texto: 'FINAL 11 de 22: A espera de juicio. Despiertas en el calabozo con un gran dolor en todo el cuerpo. Lo último que recuerdas es la paliza que te dieron y que apuñalaste a un portero con un botellín roto. Ahora tienes cargos en tu contra y varias costillas rotas. ',
     },
     opcion140:{
+        imagen: 'Amor.png',
         boton1Texto: ' FINAL 13 de 22: Conexión romántica.(Tomas a García de la mano y os alejáis de la mesa, encontrando un rincón más tranquilo en la discoteca. El resto de la noche transcurre sin problemas, y terminas acompañando a García a su casa. La noche finaliza con un beso en la puerta y una promesa de veros pronto',
     },
     opcion141:{
+        imagen: 'Reservado.jpeg',
         boton1Texto: '(Decides fingir que todo el caos fue parte de un plan maestro para colarte en el resevado)',
         consecuencia1: 'opcion142',
     },
@@ -760,6 +807,7 @@ let opciones = {
         consecuencia1: 'opcion143',
     },
     opcion143:{
+        imagen: 'Indignación.png',
         boton1Texto: ' FINAL 14 de 22: Sigues insistiendo en que todo estaba planeado. Sin embargo, cuanto más hablas, más absurda se vuelve la historia, y García finalmente te ve como un fantasma, se ríe, pero no de forma amable, y te da una palmada en la espalda antes de alejarse con sus amigos',
     },
     opcion144:{
@@ -768,7 +816,7 @@ let opciones = {
         mostrar6: true,
     },
     opcion145:{
-        boton1Texto: '(Te acercas al reservado y ves cómo están apostados dos porteros en la entrada, no parece que vaya a ser tarea fácil entrar.)',
+        boton1Texto: '(Te acercas al reservado y ves cómo hay un portero en la entrada, no parece que vaya a ser tarea fácil entrar.)',
         consecuencia1: 'opcion146',
     },
     opcion146:{
@@ -779,7 +827,8 @@ let opciones = {
         consecuencia2: 'opcion175'
     },
     opcion147:{
-        boton1Texto: '[Portero 2] Hmmmmmmm',
+        imagen: 'Portero reservado.jpeg',
+        boton1Texto: '[Portero] Hmmmmmmm',
         consecuencia1: 'opcion148',
     },
     opcion148:{
@@ -787,6 +836,7 @@ let opciones = {
         consecuencia1: 'opcion149',
     },
     opcion149:{
+        imagen: 'Reservado.jpeg',
         boton1Texto: '(Por fin logras llegar hasta garcía)',
         consecuencia1: 'opcion150',
     },
@@ -799,6 +849,7 @@ let opciones = {
         consecuencia1: 'opcion152',
     },
     opcion152:{
+        imagen: 'Reservado.jpeg',
         boton1Texto: '(Sientes que la conversación ha llegado a un punto crucial y sabes que la siguiente decisión podría cambiar el rumbo de la noche.)',
         consecuencia1: 'opcion153',
     },
@@ -815,6 +866,7 @@ let opciones = {
         consecuencia1: 'opcion155',
     },
     opcion155:{
+        imagen: 'Paseo.jpeg',
         boton1Texto: '(Ambos salís y camináis por las calles iluminadas de la ciudad. A mitad del paseo, García te pregunta algo personal.) ',
         consecuencia1: 'opcion156',
     },
@@ -823,6 +875,7 @@ let opciones = {
         consecuencia1: 'opcion157',
     },
     opcion157:{
+        imagen: 'Paseo.jpeg',
         boton1Texto: '>> La verdad, solo quería pasar un buen rato. Necesitaba salir de la rutina',
         boton2Texto: '>> (Decir que venías buscando algo más profundo)',
         bot2: true,
@@ -842,6 +895,7 @@ let opciones = {
         consecuencia1: 'opcion161',
     },
     opcion161:{
+        imagen: 'Paseo.jpeg',
         boton1Texto: '>> (Decirle que estás feliz de estar con él/ella)',
         boton2Texto: '>> (Mantener la conversación más neutral y seguir charlando sobre otros temas)',
         bot2: true,
@@ -861,12 +915,15 @@ let opciones = {
         consecuencia1: 'opcion165',
     },
     opcion165:{
+        imagen: 'Llorar.png',
         boton1Texto: 'FINAL 16 de 22: De aquí no se llega a ningún lado. La noche termina con una charla sobre Kevin, para finalmente despedirte de tu primer amor no correspondido. Faltan pañuelitos en el mudno para los que necesitarás.',
     },
     opcion166:{
+        imagen: 'Triste.png',
         boton1Texto: 'FINAL 17 de 21: La charla se desvía hacia temas más banales y cuando llegáis al final del paseo, García te da las gracias por la compañía.  Que noche más cutre ¿no? ',
     },
     opcion167:{
+        imagen: 'Hablar solo.png',
         boton1Texto: 'FINAL 18 de 22: Déjate de rollos. García te mira con la cara con la que mirarías a una persona lunática, intentaste llevar la conversación por un tema demasiado raro sobre las conexiones y el destino. Cuando te das cuenta, llevabas un rato hablando solo',
     },
     opcion168:{
@@ -882,6 +939,7 @@ let opciones = {
         consecuencia1: 'opcion171',
     },
     opcion171:{
+        imagen: 'Discoteca.jpg',
         boton1Texto: '>> (Bromear sobre lo malo que eres)',
         boton2Texto: '>> Me encanta bailar, es como un don',
         bot2: true,
@@ -893,21 +951,26 @@ let opciones = {
         consecuencia1: 'opcion173',
     },
     opcion173:{
+        imagen: 'Beso.png',
         boton1Texto: ' FINAL 19 de 22 : No te crees ni tú lo que ha pasado. Terminas besando a la persona que te gusta bajo las luces de la discoteca, sellando una noche inolvidable',
     },
     opcion174:{
+        imagen: 'Bailar mal.png',
         boton1Texto: ' FINAL 20 de 22 : Desde luego que no se olvida de ti. Le comentas a García que te encanta bailar y que, de hecho, has tomado clases hace tiempo. Sin embargo, el haber bebido tanto hace que te caigas encima de tu pareja de baile. La noche termina en el hospital acompañando a García por su brazo roto',
         boton2Texto: ' FINAL 21 de 22: Ridículo en la pista. Tú mismo te motivas con tu propia frase, empiezas a bailar sintiendo que estás dando tus mejores pasos, no podrías estar más equivocado',
     },
     opcion175: {
-        boton1Texto: ' "Eh, chicos, soy el nuevo. Me han mandado a revisar algo, tengo que entrar rápido',
+        imagen: 'Reservado.jpeg',
+        boton1Texto: 'Ey, soy el nuevo. Me han mandado a revisar algo, tengo que entrar rápido',
         consecuencia1: 'opcion176',
     },
     opcion176: {
-        boton1Texto: '[Portero 2] ¿Nuevo? No me han mencionado nada...',
+        imagen: 'Portero reservado.jpeg',
+        boton1Texto: '[Portero] ¿Nuevo? No me han mencionado nada...',
         consecuencia1: 'opcion177',
     },
     opcion177: {
+        imagen: 'Reservado.jpeg',
         boton1Texto: '>> (Insistir con una historia convincente)',
         boton2Texto: '>> (Hacer una broma para romper la tensión)',
         bot2: true,
@@ -919,18 +982,22 @@ let opciones = {
         consecuencia1: 'opcion179',
     },
     opcion179: {
-        boton1Texto: '[Portero 2] Hmmm... vale, pasa rápido. Pero si te veo causando problemas, será tu última noche',
+        imagen: 'Portero reservado.jpeg',
+        boton1Texto: '[Portero] Hmmm... vale, pasa rápido. Pero si te veo causando problemas, será tu última noche',
         consecuencia1: 'opcion180',
     },
     opcion180: {
+        imagen: 'Reservado.jpeg',
         boton1Texto: '(Parece que el cuento ha funcionado)',
         consecuencia1: 'opcion149',
     },
     opcion181: {
+        imagen: 'Reservado.jpeg',
         boton1Texto: 'Si te dejo ganar a piedra, papel o tijera tres veces seguidas, me dejas pasar. Lo digo para que sea justo...',
         consecuencia1: 'opcion182',
     },
     opcion182: {
+        imagen: 'Resignación.png',
         boton1Texto: 'FINAL 15 de 22: Por gracioso. Al portero no le hizo gracia tu comentarios y menos sobre su intelecto, a pesar de haber sido acertados, te vetan del local y pasas la noche en un kebab solo',
     },
     opcion183: {
@@ -943,6 +1010,7 @@ let opciones = {
         consecuencia1: 'opcion185',
     },
     opcion185: {
+        imagen: 'Reservado.jpeg',
         boton1Texto: '(Te acercas directamente a García)',
         consecuencia1: 'opcion150',
     },
@@ -965,22 +1033,26 @@ let opciones = {
         consecuencia1: 'opcion190',
     },
     opcion190: {
+        imagen: 'Profesor.jpeg',
         boton1Texto: '[Profesor] ¡Oh vaya! ¿En qué momento se me habrá caído?',
         consecuencia1: 'opcion191',
     },
     opcion191: {
+        imagen: 'Discoteca.jpg',
         boton1Texto: '* Objeto Tarjeta ha sido usado *',
         consecuencia1: 'opcion192',
     },
     opcion192: {
+        imagen: 'Profesor.jpeg',
         boton1Texto: '[Profesor] Me has salvado, así que no te preocupes demasiado por el lunes...',
         consecuencia1: 'opcion193',
     },
     opcion193: {
+        imagen: 'Conformismo.png',
         boton1Texto: 'FINAL 3 de 22: Chantaje inesperado. Sin quererlo ni beberlo, acabas de asegurarte el aprobado del examen que ni sabías que tenías. Termina siendo una noche fructífera, pero sigues sin estar en la mira de Cupido',
     },
     opcion200: {
-        imagen: '/Final hospital.jpg',
+        imagen: 'Final hospital.jpg',
         boton1Texto: 'FINAL 22 de 22: Te encuentras en el hospital en coma, debido al exceso de alcohol en sangre. (No lo intentéis en casa)',
     }
 };
@@ -1024,15 +1096,38 @@ function siguiente(boton) {
     }
 
     //Decisión de imágenes en función del sexo de García
-    if (opcionActual === 'opcion64'){
-        opciones.opcion64.imagen='/';
-        opciones.opcion66.imagen='/';
-    }
     if (opcionActual === 'opcion65'){
-        opciones.opcion65.imagen='/';
-        opciones.opcion66.imagen='/';
-    }
+        opciones.opcion98.imagen='Chico reservado.jpeg';
+        opciones.opcion107.imagen='Chico reservado.jpeg';
+        opciones.opcion120.imagen='Chico reservado.jpeg';
+        opciones.opcion123.imagen='Chico reservado.jpeg';
+        opciones.opcion128.imagen='Chico discoteca.jpeg';
+        opciones.opcion136.imagen='Chico reservado.jpeg';
+        opciones.opcion142.imagen='Chico reservado.jpeg';
+        opciones.opcion151.imagen='Chico reservado.jpeg';
+        opciones.opcion154.imagen='Chico reservado.jpeg';
+        opciones.opcion158.imagen='Chico paseo.jpeg';
+        opciones.opcion164.imagen='Chico paseo.jpeg';
+        opciones.opcion168.imagen='Chico reservado.jpeg';
+        opciones.opcion170.imagen='Chico discoteca.jpeg';
 
+    }
+    if (opcionActual === 'opcion66'){
+        opciones.opcion98.imagen='Chica reservado.jpeg';
+        opciones.opcion107.imagen='Chica reservado.jpeg';
+        opciones.opcion120.imagen='Chica reservado.jpeg';
+        opciones.opcion123.imagen='Chica reservado.jpeg';
+        opciones.opcion128.imagen='Chica discoteca.jpeg';
+        opciones.opcion136.imagen='Chica reservado.jpeg';
+        opciones.opcion142.imagen='Chica reservado.jpeg';
+        opciones.opcion151.imagen='Chica reservado.jpeg';
+        opciones.opcion154.imagen='Chica reservado.jpeg';
+        opciones.opcion158.imagen='Chica paseo.jpeg';
+        opciones.opcion164.imagen='Chica paseo.jpeg';
+        opciones.opcion168.imagen='Chica reservado.jpeg';
+        opciones.opcion170.imagen='Chica discoteca.jpeg';
+
+    }
     //Barra de progreso de ebriedad
     if (historia.cubata) {
         contador += 25;  // Incrementa el contador en 25
